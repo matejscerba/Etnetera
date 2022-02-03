@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6706BE0327A948F9009B82D2 /* BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6706BE0227A948F9009B82D2 /* BackgroundColor.swift */; };
+		6706BE1227A962B2009B82D2 /* WorkoutData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6706BE1027A962B2009B82D2 /* WorkoutData+CoreDataClass.swift */; };
+		6714B18827AA7602006AAD2E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6714B18727AA7602006AAD2E /* FirebaseAuth */; };
+		6714B18A27AA7602006AAD2E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6714B18927AA7602006AAD2E /* FirebaseFirestore */; };
+		6714B18C27AA769B006AAD2E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6714B18B27AA769B006AAD2E /* GoogleService-Info.plist */; };
+		674DF88727AC2B4A008B7790 /* ShowMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674DF88627AC2B4A008B7790 /* ShowMapView.swift */; };
+		6751C28A27AA831600A5B48E /* DurationPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6751C28927AA831600A5B48E /* DurationPickerView.swift */; };
+		6751C2AD27ABC50B00A5B48E /* AddWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6751C2AC27ABC50B00A5B48E /* AddWorkoutView.swift */; };
+		67B0D90B27AC1A5D00F7B43C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B0D90A27AC1A5D00F7B43C /* MapView.swift */; };
+		67B0D90F27AC240C00F7B43C /* WorkoutData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B0D90D27AC240C00F7B43C /* WorkoutData+CoreDataProperties.swift */; };
+		67BD4BEE27A86CD200628769 /* EtneteraTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BD4BED27A86CD200628769 /* EtneteraTestApp.swift */; };
+		67BD4BF027A86CD200628769 /* WorkoutsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BD4BEF27A86CD200628769 /* WorkoutsListView.swift */; };
+		67BD4BF227A86CD300628769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67BD4BF127A86CD300628769 /* Assets.xcassets */; };
+		67BD4BF527A86CD300628769 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67BD4BF427A86CD300628769 /* Preview Assets.xcassets */; };
+		67BD4BF727A86CD300628769 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BD4BF627A86CD300628769 /* Persistence.swift */; };
+		67BD4BFA27A86CD300628769 /* EtneteraTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67BD4BF827A86CD300628769 /* EtneteraTest.xcdatamodeld */; };
+		67BD4C0127A8724C00628769 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BD4C0027A8724C00628769 /* Storage.swift */; };
+		67BD4C0727A8762300628769 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BD4C0627A8762300628769 /* Workout.swift */; };
+		67BD4C0B27A8764600628769 /* LocalDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BD4C0A27A8764600628769 /* LocalDatabase.swift */; };
+		67BD4C0D27A8765100628769 /* RemoteDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BD4C0C27A8765100628769 /* RemoteDatabase.swift */; };
+		67BD4C0F27A877C700628769 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BD4C0E27A877C700628769 /* User.swift */; };
+		67BD4C1527A9417600628769 /* WorkoutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BD4C1427A9417600628769 /* WorkoutItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6706BE0227A948F9009B82D2 /* BackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColor.swift; sourceTree = "<group>"; };
+		6706BE1027A962B2009B82D2 /* WorkoutData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "WorkoutData+CoreDataClass.swift"; path = "EtneteraTest/Core Data/WorkoutData+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		6714B18B27AA769B006AAD2E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6714B18F27AA7D11006AAD2E /* EtneteraTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EtneteraTest.entitlements; sourceTree = "<group>"; };
+		674DF88627AC2B4A008B7790 /* ShowMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMapView.swift; sourceTree = "<group>"; };
+		674DF88A27AC728E008B7790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6751C28927AA831600A5B48E /* DurationPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationPickerView.swift; sourceTree = "<group>"; };
+		6751C2AC27ABC50B00A5B48E /* AddWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutView.swift; sourceTree = "<group>"; };
+		67B0D90A27AC1A5D00F7B43C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		67B0D90D27AC240C00F7B43C /* WorkoutData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "WorkoutData+CoreDataProperties.swift"; path = "EtneteraTest/Core Data/WorkoutData+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		67BD4BEA27A86CD200628769 /* EtneteraTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EtneteraTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BD4BED27A86CD200628769 /* EtneteraTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtneteraTestApp.swift; sourceTree = "<group>"; };
+		67BD4BEF27A86CD200628769 /* WorkoutsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsListView.swift; sourceTree = "<group>"; };
+		67BD4BF127A86CD300628769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67BD4BF427A86CD300628769 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67BD4BF627A86CD300628769 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		67BD4BF927A86CD300628769 /* EtneteraTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EtneteraTest.xcdatamodel; sourceTree = "<group>"; };
+		67BD4C0027A8724C00628769 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		67BD4C0627A8762300628769 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		67BD4C0A27A8764600628769 /* LocalDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDatabase.swift; sourceTree = "<group>"; };
+		67BD4C0C27A8765100628769 /* RemoteDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDatabase.swift; sourceTree = "<group>"; };
+		67BD4C0E27A877C700628769 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		67BD4C1427A9417600628769 /* WorkoutItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67BD4BE727A86CD200628769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6714B18827AA7602006AAD2E /* FirebaseAuth in Frameworks */,
+				6714B18A27AA7602006AAD2E /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6714B18E27AA7709006AAD2E /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				67BD4BF627A86CD300628769 /* Persistence.swift */,
+				6706BE1027A962B2009B82D2 /* WorkoutData+CoreDataClass.swift */,
+				67B0D90D27AC240C00F7B43C /* WorkoutData+CoreDataProperties.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		674DF88827AC6F19008B7790 /* Show Workouts */ = {
+			isa = PBXGroup;
+			children = (
+				67BD4BEF27A86CD200628769 /* WorkoutsListView.swift */,
+				67BD4C1427A9417600628769 /* WorkoutItem.swift */,
+				6706BE0227A948F9009B82D2 /* BackgroundColor.swift */,
+				674DF88627AC2B4A008B7790 /* ShowMapView.swift */,
+			);
+			path = "Show Workouts";
+			sourceTree = "<group>";
+		};
+		674DF88927AC6F32008B7790 /* Add Workouts */ = {
+			isa = PBXGroup;
+			children = (
+				6751C2AC27ABC50B00A5B48E /* AddWorkoutView.swift */,
+				67B0D90A27AC1A5D00F7B43C /* MapView.swift */,
+				6751C28927AA831600A5B48E /* DurationPickerView.swift */,
+			);
+			path = "Add Workouts";
+			sourceTree = "<group>";
+		};
+		67BD4BE127A86CD200628769 = {
+			isa = PBXGroup;
+			children = (
+				67BD4BEC27A86CD200628769 /* EtneteraTest */,
+				67BD4BEB27A86CD200628769 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67BD4BEB27A86CD200628769 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67BD4BEA27A86CD200628769 /* EtneteraTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67BD4BEC27A86CD200628769 /* EtneteraTest */ = {
+			isa = PBXGroup;
+			children = (
+				674DF88A27AC728E008B7790 /* Info.plist */,
+				6714B18F27AA7D11006AAD2E /* EtneteraTest.entitlements */,
+				67BD4BED27A86CD200628769 /* EtneteraTestApp.swift */,
+				674DF88827AC6F19008B7790 /* Show Workouts */,
+				674DF88927AC6F32008B7790 /* Add Workouts */,
+				67BD4C0E27A877C700628769 /* User.swift */,
+				67BD4C0027A8724C00628769 /* Storage.swift */,
+				67BD4C0627A8762300628769 /* Workout.swift */,
+				67BD4C0A27A8764600628769 /* LocalDatabase.swift */,
+				67BD4C0C27A8765100628769 /* RemoteDatabase.swift */,
+				6714B18E27AA7709006AAD2E /* Core Data */,
+				67BD4BF127A86CD300628769 /* Assets.xcassets */,
+				67BD4BF827A86CD300628769 /* EtneteraTest.xcdatamodeld */,
+				6714B18B27AA769B006AAD2E /* GoogleService-Info.plist */,
+				67BD4BF327A86CD300628769 /* Preview Content */,
+			);
+			path = EtneteraTest;
+			sourceTree = "<group>";
+		};
+		67BD4BF327A86CD300628769 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				67BD4BF427A86CD300628769 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67BD4BE927A86CD200628769 /* EtneteraTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BD4BFD27A86CD300628769 /* Build configuration list for PBXNativeTarget "EtneteraTest" */;
+			buildPhases = (
+				67BD4BE627A86CD200628769 /* Sources */,
+				67BD4BE727A86CD200628769 /* Frameworks */,
+				67BD4BE827A86CD200628769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EtneteraTest;
+			packageProductDependencies = (
+				6714B18727AA7602006AAD2E /* FirebaseAuth */,
+				6714B18927AA7602006AAD2E /* FirebaseFirestore */,
+			);
+			productName = EtneteraTest;
+			productReference = 67BD4BEA27A86CD200628769 /* EtneteraTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67BD4BE227A86CD200628769 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					67BD4BE927A86CD200628769 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 67BD4BE527A86CD200628769 /* Build configuration list for PBXProject "EtneteraTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67BD4BE127A86CD200628769;
+			packageReferences = (
+				6714B18627AA7602006AAD2E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 67BD4BEB27A86CD200628769 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67BD4BE927A86CD200628769 /* EtneteraTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67BD4BE827A86CD200628769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BD4BF527A86CD300628769 /* Preview Assets.xcassets in Resources */,
+				67BD4BF227A86CD300628769 /* Assets.xcassets in Resources */,
+				6714B18C27AA769B006AAD2E /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67BD4BE627A86CD200628769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BD4C0D27A8765100628769 /* RemoteDatabase.swift in Sources */,
+				67B0D90B27AC1A5D00F7B43C /* MapView.swift in Sources */,
+				6751C2AD27ABC50B00A5B48E /* AddWorkoutView.swift in Sources */,
+				6751C28A27AA831600A5B48E /* DurationPickerView.swift in Sources */,
+				67BD4BF727A86CD300628769 /* Persistence.swift in Sources */,
+				67BD4BFA27A86CD300628769 /* EtneteraTest.xcdatamodeld in Sources */,
+				67BD4C1527A9417600628769 /* WorkoutItem.swift in Sources */,
+				67BD4C0B27A8764600628769 /* LocalDatabase.swift in Sources */,
+				67BD4BF027A86CD200628769 /* WorkoutsListView.swift in Sources */,
+				67B0D90F27AC240C00F7B43C /* WorkoutData+CoreDataProperties.swift in Sources */,
+				67BD4C0F27A877C700628769 /* User.swift in Sources */,
+				6706BE0327A948F9009B82D2 /* BackgroundColor.swift in Sources */,
+				6706BE1227A962B2009B82D2 /* WorkoutData+CoreDataClass.swift in Sources */,
+				674DF88727AC2B4A008B7790 /* ShowMapView.swift in Sources */,
+				67BD4BEE27A86CD200628769 /* EtneteraTestApp.swift in Sources */,
+				67BD4C0127A8724C00628769 /* Storage.swift in Sources */,
+				67BD4C0727A8762300628769 /* Workout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		67BD4BFB27A86CD300628769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67BD4BFC27A86CD300628769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67BD4BFE27A86CD300628769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EtneteraTest/EtneteraTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EtneteraTest/Preview Content\"";
+				DEVELOPMENT_TEAM = LSG8C7KX9L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EtneteraTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matejscerba.EtneteraTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67BD4BFF27A86CD300628769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EtneteraTest/EtneteraTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EtneteraTest/Preview Content\"";
+				DEVELOPMENT_TEAM = LSG8C7KX9L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EtneteraTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matejscerba.EtneteraTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67BD4BE527A86CD200628769 /* Build configuration list for PBXProject "EtneteraTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BD4BFB27A86CD300628769 /* Debug */,
+				67BD4BFC27A86CD300628769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BD4BFD27A86CD300628769 /* Build configuration list for PBXNativeTarget "EtneteraTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BD4BFE27A86CD300628769 /* Debug */,
+				67BD4BFF27A86CD300628769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6714B18627AA7602006AAD2E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6714B18727AA7602006AAD2E /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6714B18627AA7602006AAD2E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		6714B18927AA7602006AAD2E /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6714B18627AA7602006AAD2E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		67BD4BF827A86CD300628769 /* EtneteraTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				67BD4BF927A86CD300628769 /* EtneteraTest.xcdatamodel */,
+			);
+			currentVersion = 67BD4BF927A86CD300628769 /* EtneteraTest.xcdatamodel */;
+			path = EtneteraTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 67BD4BE227A86CD200628769 /* Project object */;
+}
